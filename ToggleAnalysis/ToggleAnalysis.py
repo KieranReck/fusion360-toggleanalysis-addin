@@ -27,12 +27,12 @@ def run(context):
         onCommandCreated = ToggleAnalysisCommandCreatedHandler()
         cmdDef.commandCreated.add(onCommandCreated)
         handlers.append(onCommandCreated)
-        
-        # Add the command to the Navigation toolbar
-        navToolbar = ui.toolbars.itemById('NavToolbar')
-        if navToolbar:
-            control = navToolbar.controls.addCommand(cmdDef)
-            control.isVisible = True
+
+	# Add the command to the ADD-INS panel in Tools tab
+        addInsPanel = ui.allToolbarPanels.itemById('SolidScriptsAddinsPanel')
+        if addInsPanel:
+            cmdControl = addInsPanel.controls.addCommand(cmdDef)
+            cmdControl.isVisible = True
         
         # Optional: Show success message (comment out for production)
         # ui.messageBox('Toggle Analysis Visibility add-in loaded successfully!\n\nLook for the icon in the Inspect panel.')
