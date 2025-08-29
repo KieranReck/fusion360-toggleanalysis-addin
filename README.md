@@ -3,6 +3,8 @@
 
    <img src="./ToggleAnalysis/AddInIcon.svg" alt="Icon" height="200">
 
+   [DemoVideo.webm](https://github.com/user-attachments/assets/28c17b41-cbbd-4aa5-965e-216a2837a69f)
+
    ## Overview
    Adds a button to the UTILITIES > ADD-INS panel which toggles the visibility of the Analysis Folder. The button is less than useful in itself, but it adds the ability for you to bind it to a keyboard shortcut (such as `ctrl+shift+a`)
 
