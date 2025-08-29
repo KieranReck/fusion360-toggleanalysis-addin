@@ -1,0 +1,13 @@
+{
+	"autodeskProduct":	"Fusion",
+	"type":	"addin",
+	"author":	"KieranReck",
+	"description":	{
+		"":	"Toggles the visibility of the Analysis folder in the browser so that you can add that functionality to a keyboard shortcut"
+	},
+	"version":	"1.0.0",
+	"runOnStartup":	false,
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true,
+	"iconFilename":	"ToggleAnalysisIcon.svg"
+}
