@@ -9,5 +9,5 @@
 	"runOnStartup":	false,
 	"supportedOS":	"windows|mac",
 	"editEnabled":	true,
-	"iconFilename":	"ToggleAnalysisIcon.svg"
+	"iconFilename":	"AddInIcon.svg"
 }
